@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const zapierWebhookUrl = 'https://hooks.zapier.com/hooks/catch/你的zapierid/你的hookid/';
+    const zapierWebhookUrl = 'https://hooks.zapier.com/hooks/catch/23888128/uu24j65/';
 
     const response = await fetch(zapierWebhookUrl, {
       method: 'POST',
